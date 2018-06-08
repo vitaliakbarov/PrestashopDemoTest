@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- Browser params -->
+    <BrowserType>chrome</BrowserType>
+    <URL>http://yoniflenner.net/prestashop/index.php</URL>
+    <ChromeDriverPath>C:/SeleniumDrivers/chromedriver.exe</ChromeDriverPath>
+    <IEDriverPath>C:/SeleniumDrivers/IEDriverServer.exe</IEDriverPath>
+    <FFDriverPath>C:/SeleniumDrivers/geckodriver.exe</FFDriverPath>
+    <!-- Sikuli -->
+    <ImagePath>C:/Users/Vetal/IdeaProjects/PrestashopDemoTest/</ImagePath>
+    <!-- Report -->
+    <ReportFilePath>C:/TEST/ExampleReports/</ReportFilePath>
+    <ReportFileName>TestReport_</ReportFileName>
+
+    <!-- User Details -->
+    <email>vitaliakbarov@gmail.com</email>
+    <password>123456</password>
+    <!-- Data Driven -->
+    <usersPath>C:/Users/Vetal/IdeaProjects/PrestashopDemoTest/users.csv</usersPath>
+</Environment>
